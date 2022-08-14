@@ -1,0 +1,126 @@
+:root{
+  /* Color */
+  --white-color: #fff;
+  --black-color: #030303;
+  --red-color: #FF0000;
+  
+  /* Size */
+  --side-padding: 30px;
+  --avatar-size: 80px;
+  --thumbnail-size: 120px;
+  
+  /* Font Size */
+  --font-largest: 75px;
+  --font-large: 45px;
+  --font-medium: 33px;
+  --font-small: 15px;
+  --font-micro: 10px;
+}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #f9f9f9;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Greetings */
+.login {
+  display: flex;
+  font-size: var(--font-large);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15%;
+}
+
+#login-form input{
+  width: 200px;
+  height: 25px;
+}
+
+/* Time */
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.date {
+  font-size: var(--font-medium);
+  margin-right: 10px;
+}
+
+.clock {
+  font-size: var(--font-largest);
+}
+
+/* Todo */
+.todos {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+#todo-list{
+  display: flex;
+  font-weight: 550;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 180px;
+}
+
+#todo-form input {
+  width: 180px;
+  height: 25px;
+}
+
+#todo-list span, button {
+  margin-right: 10px;
+}
+
+#todo-list button {
+  width: 25px;
+  height: 25px;
+  font-size: var(--font-micro);
+  text-align: center;
+}
+
+
+/* Background */
+/* body {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+/* Weather */
+#weather {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 15px;
+}
+
+.location, .weather-now{
+  display: flex;
+  margin: 5px;
+  font-weight: 600;
+}
+
+.temp {
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  align-items: flex-end;
+}
